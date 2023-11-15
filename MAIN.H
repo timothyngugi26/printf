@@ -38,14 +38,14 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
-int_printf(const char *format, ...);
+int int_printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /******** Functions ************/
 
 /* Function to print char and strings */
-int_print char(va_list types, char buffer[], int flags, int width, int precision, int size);
+int int_print(va_list types, char buffer[], int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[], int flags, int width, int precision, int size);
 int print_percentage(va_list types, char buffer[], int flags, int width, int precisiom, int size);
 
